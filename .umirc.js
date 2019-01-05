@@ -49,7 +49,7 @@ export default {
     ie: 11,
   },
   define: {
-    APP_ENV: process.env.APP_ENV || '',
+    'process.env.APP_ENV': process.env.APP_ENV || '',
   },
   // 路由配置
   routes: pageRoutes,
